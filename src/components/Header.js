@@ -1,7 +1,7 @@
-function Header(){
-    return(
+function Header() {
+    return (
         <header>
-            <img src={process.env.PUBLIC_URL + '/restauranfood.jpg'}></img>
+            <img style={{height : '100px', wide:'100px'}} src={process.env.PUBLIC_URL + '/icons_assets/restauranfood.jpg'} alt="Food" />
         </header>
     );
 }
